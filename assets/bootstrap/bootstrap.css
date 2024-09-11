@@ -6394,7 +6394,6 @@ fieldset:disabled .btn {
   border: 0;
   opacity: 0.5;
   transition: opacity 0.15s ease;
-  background-color: rgba(128, 128, 128, 0.2); /* Gris avec transparence */
 }
 @media (prefers-reduced-motion: reduce) {
   .carousel-control-prev,

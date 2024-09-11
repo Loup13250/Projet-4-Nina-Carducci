@@ -1,30 +1,93 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/bootstrap/bootstrap.css" />
-    <link rel="stylesheet" href="./assets/style.css" />
+    <meta
+      name="description"
+      content="Nina Carducci, photographe professionnelle, présente son travail et propose ses services de photographie."
+    />
+
+    <title>Nina Carducci - Photographe</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
       rel="stylesheet"
     />
-    <meta charset="UTF-8" />
-    <script src="./assets/bootstrap/bootstrap.bundle.js"></script>
+
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
+
+    <script src="./assets/bootstrap/bootstrap.bundle.js" defer></script>
+
     <script
       src="https://code.jquery.com/jquery-3.4.1.min.js"
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
       crossorigin="anonymous"
+      defer
     ></script>
-    <script src="./assets/maugallery.js"></script>
-    <script src="./assets/scripts.js"></script>
+    <script src="./assets/maugallery.js" defer></script>
+    <script src="./assets/scripts.js" defer></script>
 
+    <!-- Script JSON-LD pour les moteurs de recherches -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Nina Carducci photographe",
+        "image": "https://loup13250.github.io/Projet-4-Nina-Carducci/assets/images/nina.webp",
+        "@id": "https://loup13250.github.io/Projet-4-Nina-Carducci/",
+        "url": "https://loup13250.github.io/Projet-4-Nina-Carducci/",
+        "telephone": "+33-5-56-67-78-89",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "123 rue du fameux undeuxtroix",
+          "addressLocality": "Marseille",
+          "postalCode": "13005",
+          "addressCountry": "FR"
+        },
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "10:00",
+          "closes": "19:00"
+        },
+        "sameAs": ["https://www.instagram.com/ninacarducci.photo/?hl=fr"]
+      }
+    </script>
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@Ninacarducci.photo" />
+    <meta name="twitter:title" content="Nina Carducci photographe" />
     <meta
-      name="description"
-      content="Nina Carducci, photographe professionnelle, présente son travail et propose ses services de photographie."
+      name="twitter:description"
+      content="Découvrez les magnifiques photographies de Nina Carducci."
     />
-    <title>Nina Carducci - Photographe</title>
+    <meta
+      name="twitter:image"
+      content="https://loup13250.github.io/Projet-4-Nina-Carducci/assets/images/nina.webp"
+    />
+
+    <!-- Open Graph data ( facebook linkdin.. etc)-->
+    <meta property="og:title" content="Nina Carducci photographe" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://loup13250.github.io/Projet-4-Nina-Carducci/"
+    />
+    <meta
+      property="og:image"
+      content="https://loup13250.github.io/Projet-4-Nina-Carducci/assets/images/nina.webp"
+    />
+    <meta
+      property="og:description"
+      content="Découvrez les magnifiques photographies de Nina Carducci."
+    />
+    <meta property="og:site_name" content="Nina Carducci photographe" />
+    <meta property="og:locale" content="fr_FR" />
   </head>
   <body>
     <div class="top-header">

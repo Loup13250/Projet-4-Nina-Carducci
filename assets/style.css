@@ -78,22 +78,26 @@ body {
   margin-bottom: 60px;
   font-size: 30px;
 }
-.about-me__introduction {
+
+#about-me p {
+  width: 80%;
+  font-size: 14px;
+}
+
+#about-me .about-me__introduction {
   font-family: "Spectral";
   font-weight: 800;
   font-style: italic;
   width: 60%;
-}
-#about-me p {
-  width: 80%;
-  font-size: 14px;
+  font-size: 1rem;
+  line-height: 1.2;
 }
 .carousel-control-prev,
 .carousel-control-next {
   background-color: rgba(128, 128, 128, 0.2); /* Gris avec transparence */
 }
 #gallery {
-  /*	min-height: 100vh; */
+  min-height: 100vh;
 }
 .title {
   text-align: center;
